@@ -1,10 +1,5 @@
 # Adobe Illustrator Sublayer Helper
 
-Little script to improve sublayers management in Adobe Illustrator. Still under development.
-
-
-# Adobe Illustrator Sublayer Helper
-
 This script helps cleaning up sublayers in Illustrator. 
 
 The script will prepend all sublayers with the parent layers name and remove the unnecessary *copy [number]* in the sublayers names.
