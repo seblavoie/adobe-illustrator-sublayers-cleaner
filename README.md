@@ -8,7 +8,7 @@ The script will prepend all sublayers with the parent layers name and remove the
 
 ### Option 1
 
-Save `ai-layer-renamer.jsx` in your scripts folder.
+Save `ai-sublayers-cleaner.jsx` in your scripts folder.
 
 - Windows: `Program Files\Adobe\Adobe After Effects <version>\Presets\<language>/Scripts`
 - OS X: `/Applications/Illustrator <version>/Presets/<language>/Scripts`
