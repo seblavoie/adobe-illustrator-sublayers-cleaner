@@ -159,14 +159,14 @@ build = (watch, callback) ->
   options = options.concat files
   options.unshift '-w' if watch
 
+  launch 'coffee', options, callback
+  
   walk 'lib', (err, files) -> 
     for file in files
         filename = file.substr file.lastIndexOf('/') + 1
         if not filename.match(/^_/)
           jsxFile = file.replace(/.+\/(.+)/, "$1").replace(".js", ".jsx")
           fs.createReadStream(file).pipe(fs.createWriteStream(jsxFile));
-
-  launch 'coffee', options, callback
 
 # ## *unlinkIfCoffeeFile*
 #
