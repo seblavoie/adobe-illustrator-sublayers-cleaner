@@ -4,6 +4,8 @@ This script helps cleaning up sublayers in Illustrator.
 
 The script will prepend all sublayers with the parent layers name and remove the unnecessary *copy [number]* in the sublayers names.
 
+> Make sure that the root layer’s subobjects are sublayers by using *Release to Layers (Sequence)*.
+
 ## Installation
 
 ### Option 1
