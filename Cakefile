@@ -160,8 +160,8 @@ build = (watch, callback) ->
   options.unshift '-w' if watch
 
   launch 'coffee', options, callback
-  
-  walk 'lib', (err, files) -> 
+
+  walk 'lib', (err, files) ->
     for file in files
         filename = file.substr file.lastIndexOf('/') + 1
         if not filename.match(/^_/)
