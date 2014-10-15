@@ -23,3 +23,4 @@ Run it from ExtendScript Toolkit.
 
 1. Make sure you have [coffeescript](http://coffeescript.org) installed.
 2. Run `cake watch` from the root of folder.
+3. Run `cake build` to output .jsx file.
