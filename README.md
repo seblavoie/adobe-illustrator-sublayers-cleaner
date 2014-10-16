@@ -14,7 +14,7 @@ The script will prepend all sublayers with the parent layers name and remove the
 
 Save `Clean Sublayers.jsx` in your scripts folder.
 
-- Windows: `Program Files\Adobe\Adobe After Effects <version>\Presets\<language>/Scripts`
+- Windows: `Program Files\Adobe\Adobe Illustrator <version>\Presets\<language>/Scripts`
 - OS X: `/Applications/Illustrator <version>/Presets/<language>/Scripts`
 
 ### Option 2
