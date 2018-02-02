@@ -14,7 +14,7 @@ class SublayerHelper
     newName    = "#{layer.parent.name} : #{layer.name}"
 
     # Removes the trailing "copy #"
-    newName    = newName.replace /\- ((copy)|(copie))( [0-9]+)?/g, ""
+    newName    = newName.replace /(\- )?((copy)|(copie))( [0-9]+)?/g, ""
     layer.name = newName
 
 sublayerHelper = new SublayerHelper()
